@@ -1,5 +1,3 @@
-
-
 document.getElementById("home").onmouseover = function () {
     document.getElementById("txthome").style.display = "block";
 };
