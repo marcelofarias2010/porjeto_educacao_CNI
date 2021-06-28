@@ -469,6 +469,15 @@ section{
         height: 150px;
         margin-top: 30px;
     }
+    .boxconteudo{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .boxconteudo_right{
+        width: 100%;
+        margin: 0 auto;
+    }
+ 
     .header-img{
         background-size: 500px;
     }
