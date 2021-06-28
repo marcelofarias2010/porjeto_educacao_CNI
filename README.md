@@ -33,6 +33,12 @@ Público-alvo do curso: professores de Ensino Fundamental e Médio.
 JUSTIFICATIVAS E CORREÇÕES PROPOSTAS
 
 (escreva neste espaço suas considerações sobre o protótipo, layout e material de apoio)
+1- primeira sugestão foi mudar os menus de navegação que antes era apenas abas coloridas sem nenhuma identificação aparente.
+   Substitui por outras com icones e acrescentei outros menus para entrar, sair e voltar para a página principal(home)
+2- tentei criar um iframe na segunda parte do conteúdo tentando assimilar ao modelo, mas navegalmente eu sugeria um link direcionando a outra página.
+3- A segunda parte do conteúdo não consegui a tempo ajustar a responsividade.
+4- eu sugeria dividir os temas em arquivos html externos redirecionando a index usando linguagem de programação php para essa lógica. 
+   Deixaria o código mais organizado, enxuto e facilitaria na expansão de futuras implementações.
 
 ```
 

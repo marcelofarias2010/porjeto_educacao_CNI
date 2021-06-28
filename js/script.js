@@ -1,5 +1,6 @@
-$(document).ready(function () {
-    $('#nav-menu').click(function () {
+$(document).ready(function () {  
+    $('ul.nav-list').addClass('open').slideToggle('200');
+    $('#nav-menu').click(function () {        
         if (($('ul.nav-list').hasClass('open'))) {
             $('ul.nav-list').removeClass('open');
         } else {
@@ -7,6 +8,7 @@ $(document).ready(function () {
         }
     });
 });
+
 document.getElementById("home").onmouseover = function () {
     document.getElementById("txthome").style.display = "block";
 };
@@ -87,28 +89,28 @@ function plusSlides(n) {
     showSlides(slideIndex += n);
     var slides = document.getElementsByClassName("mySlides");
     if (n > slides.length) {
-        aux = 1
+        aux = 1;
     }
     if (n < 1) {
         aux = slides.length
     }
-    
     console.log(slideIndex);
     if (slideIndex == 1) {
         var txt1 = document.getElementById("txt1").innerHTML;
         document.getElementById("txt").innerHTML = txt1;
-    }else if (slideIndex == 2) {
+    } else if (slideIndex == 2) {
         var txt2 = document.getElementById("txt2").innerHTML;
         document.getElementById("txt").innerHTML = txt2;
-    }else if (slideIndex == 3) {
+    } else if (slideIndex == 3) {
         var txt3 = document.getElementById("txt3").innerHTML;
         document.getElementById("txt").innerHTML = txt3;
-    }else if (slideIndex == 4) {
+    } else if (slideIndex == 4) {
         var txt4 = document.getElementById("txt4").innerHTML;
         document.getElementById("txt").innerHTML = txt4;
-    }else if (slideIndex == 5) {
+    } else if (slideIndex == 5) {
         var txt5 = document.getElementById("txt5").innerHTML;
         document.getElementById("txt").innerHTML = txt5;
+        document.getElementById("sessao2").style.display = "block";
     }
 }
 
@@ -138,8 +140,12 @@ function showSlides(n) {
 
 }
 
-// exibir texto do carousel
-
+document.getElementById("painel").onmouseover = function () {
+    document.getElementById("hidden").style.display = "block";
+};
+document.getElementById("footer").onmouseout = function () {
+    document.getElementById("hidden").style.display = "none";
+};
 
 
 
