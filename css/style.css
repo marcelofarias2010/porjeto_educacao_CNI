@@ -182,7 +182,7 @@ p.p1.p2{
 }
 .boxconteudo_central{
     background-color: #707070;
-    width: 450px;
+    width: 1050px;
     height: 150px;
     float: right;  
     margin-top: 15px;
@@ -327,6 +327,20 @@ section{
     padding-top: 13px;
     border-radius: 25px;
 }
+.iframe{
+    width:1200px;
+    height:400px;
+    overflow: scroll;
+
+}
+
+.iframe::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
+
+
+
 /*definindo a imagem de fundo*/
 .container{
     /* aqui defino a imagem maior*/
