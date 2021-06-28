@@ -1,13 +1,4 @@
-$(document).ready(function () {  
-    $('ul.nav-list').addClass('open').slideToggle('200');
-    $('#nav-menu').click(function () {        
-        if (($('ul.nav-list').hasClass('open'))) {
-            $('ul.nav-list').removeClass('open');
-        } else {
-            $('ul.nav-list').addClass('open');
-        }
-    });
-});
+
 
 document.getElementById("home").onmouseover = function () {
     document.getElementById("txthome").style.display = "block";
